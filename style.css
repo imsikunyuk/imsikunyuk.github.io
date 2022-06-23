@@ -65,7 +65,7 @@ body {
 }
 
 .container .header .judul {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .container .header .judul a {
@@ -108,7 +108,7 @@ body {
 }
 
 .main .content p {
-    font-size: 15px;
+    font: 15px/18px sans-serif;
 }
 
 
@@ -130,7 +130,7 @@ body {
 
 .side p {
     margin-top: 20px;
-    font-size: 13px;
+    font: 15px/18px sans-serif;
 }
 
 .footer {
