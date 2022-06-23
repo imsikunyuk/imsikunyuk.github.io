@@ -48,14 +48,14 @@ table {
 }
 
 body {
-    background-color: black;
+    background-color: #fff;
     font-family: sans-serif;
 }
 
 .container {
     width: 900px;
     margin: auto;
-    background-color: #fff;
+    background-color: black;
 }
 
 .container .header {
