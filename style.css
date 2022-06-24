@@ -1,0 +1,196 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body {
+    background-color: #fff;
+    font-family: sans-serif;
+    color: #fff;
+}
+
+.container {
+    width: 900px;
+    margin: auto;
+    background-color: black;
+}
+
+.container .header {
+    padding: 20px;
+    background-color: #333;
+    border-bottom: 3px solid cyan;
+}
+
+.container .header .judul {
+    margin-bottom: 10px;
+}
+
+.container .header .judul a {
+    color: cyan;
+    font-size: 40px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.container .header .judul a:hover {
+    text-decoration: none;
+    font-style: italic;
+}
+
+.container .header nav a {
+    padding: 5px;
+    font-size: 15px;
+    margin-right: 5px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.container .header nav a:hover {
+    color: #333;
+    background-color: cyan;
+    border-radius: 5px;
+}
+
+.main .content {
+    width: 600px;
+    box-sizing: border-box;
+    float: left;
+    padding: 20px;
+}
+
+.main .content .sambutan {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.main .content p {
+    line-height: 18px;
+    font-size: 15px;
+}
+
+
+
+.side {
+    width: 250px;
+    padding: 20px;
+    float: right;
+}
+
+.side .saya {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.side .saya a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.side .saya a:hover {
+    text-decoration: underline;
+}
+
+.side img {
+    float: left;
+}
+
+.side p {
+    line-height: 18px;
+    margin-top: 20px;
+    font-size: 13px;
+}
+
+.footer {
+    border-top: 3px solid cyan;
+    padding: 20px;
+    background-color: #333;
+}
+
+.footer p {
+    font-size: 15px;
+    text-align: center;
+}
+
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf {
+    *zoom: 1;
+}
+
+@media only screen and (max-width:600px) {
+    body, .container, .container .header, .container .header .judul, .container .header .judul a, .container .header nav a,  .main .content, .main .content .sambutan, .main .content p, .side, .side .saya, .side img, .side p, .footer, .footer p{
+        width:auto;
+    } 
+    
+    .header .judul {
+        text-align: center;
+    }
+
+    .header nav {
+        text-align: center;
+    }
+
+    .header nav a {
+        margin: 10px;
+        display: block;
+    }
+
+  
+}
